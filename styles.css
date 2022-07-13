@@ -1,0 +1,127 @@
+h1{
+    font-size: 2.5rem;
+}
+body{
+    background-color: lightgray;
+}
+
+
+.container-fluid{
+    text-align: center;
+    /* background-color: lightgray; */
+    height: 100%;
+}
+.heading{
+    padding: 30px;
+}
+
+
+
+.calculator{
+    height: 525px;
+    width: 350px;
+    background-color:#161616;
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px;
+    border: 3px black solid;
+}
+
+
+.screen {
+    height: 100px;
+    width: 100%;
+    background-color: #5c636a;
+    border: 3px black solid;
+    border-radius: 15px;
+    color: azure;
+    padding: 6px 12px;
+}
+.previous-screen{
+    font-size: 1.2rem;
+    text-align: right;
+    height: 36px;
+    overflow-x: scroll;
+}
+.current-screen{
+    font-size: 1.6rem;
+    text-align: right;
+    height: 48px;
+    overflow-x: scroll;
+}
+.previous-screen::-webkit-scrollbar{
+    display: none;
+}
+
+
+.keys{
+    padding: 25px 10px;
+    overflow: hidden;
+}
+.keys .row{
+    height: 70px;
+}
+.col{
+    margin: 6px;
+    border: black 2px solid ;
+    border-radius: 12px;
+    font-size: 1.2rem;
+}
+
+
+.btn:focus{
+    outline: none;
+    box-shadow: none;
+    border-color:black;
+}
+.btn-danger:focus{
+    background-color: #dc3545;
+}
+.btn-info:focus{
+    background-color:#0dcaf0;
+}
+.btn-secondary:focus{
+    background-color: #6c757d;
+}
+
+
+.history{
+    height: 0px;
+    overflow:hidden;
+}
+.history-heading hr{
+    border: black 1px solid;
+}
+.history-log{
+    background-color: aliceblue;
+    height: 300px;
+    padding: 5px 10px;
+    border: black 3px solid;
+    border-radius: 12px;
+}
+.history-content{
+    height: 200px;
+    text-align: right;
+    overflow-y: scroll;
+    white-space: nowrap;
+    padding: 0px 20px;
+}
+.his-ele{
+    cursor: pointer;
+    overflow-x: scroll;
+}
+.history-btn{
+    padding: 8px;
+}
+
+.footer{
+    padding: 30px 0px 20px;
+}
+
+::-webkit-scrollbar{
+    height: 3px;
+    width: 3px;
+}
+::-webkit-scrollbar-thumb{
+    background: #a3a7aa;
+}
